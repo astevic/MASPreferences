@@ -119,6 +119,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = F16AF7EA1BA279F10022155C;
@@ -270,6 +271,7 @@
 				INFOPLIST_FILE = Framework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MODULEMAP_FILE = Framework/MASPreferences.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.shpakovski.MASPreferences;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,6 +291,7 @@
 				INFOPLIST_FILE = Framework/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MODULEMAP_FILE = Framework/MASPreferences.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.shpakovski.MASPreferences;
 				PRODUCT_NAME = "$(TARGET_NAME)";
